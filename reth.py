@@ -30,7 +30,7 @@ cores = 8
 
 
 def seek(r):
-    filename = "eth500.txt"
+    filename = "Eth500.txt.txt"
     with open(filename) as f:
         add = f.read().split()
     add = set(add)
